@@ -1,0 +1,15 @@
+directive @auth_guard on OBJECT | FIELD_DEFINITION
+
+scalar DateTime
+
+type Query {
+    _empty: String
+}
+
+type Mutation {
+    _empty: String
+}
+
+type Subscription {
+    _empty: String
+}

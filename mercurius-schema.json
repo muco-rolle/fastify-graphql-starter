@@ -1,0 +1,4 @@
+[
+    "extend type Query {\n    hello: String\n}",
+    "directive @auth_guard on OBJECT | FIELD_DEFINITION\n\nscalar DateTime\n\ntype Query {\n    _empty: String\n}\n\ntype Mutation {\n    _empty: String\n}\n\ntype Subscription {\n    _empty: String\n}"
+]
